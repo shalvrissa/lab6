@@ -1,0 +1,15 @@
+---
+title: "Diammonds2"
+author: "Sha Lu"
+date: "5/28/2021"
+output: html_document
+---
+```{r}
+
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+select(price, color, x)
+```
+
+
